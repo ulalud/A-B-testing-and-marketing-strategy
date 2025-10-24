@@ -17,32 +17,14 @@ The dataset contains daily observations of marketing performance metrics for eac
 
 ### **Hypotheses**
 
-\[
-H_0: \mu_{\text{control}} \geq \mu_{\text{test}}
-\]
 
-\[
-H_1: \mu_{\text{control}} < \mu_{\text{test}}
-\]
+H_0: mu_control >= mu_test
+
+
+H_1: mu_control < mu_test
+
 
 This specifies a **one-sided alternative hypothesis**, testing whether the mean number of purchases (or another performance metric) is greater in the **test group**.
-
-
-## **Effect Size Calculation**
-
-To measure the **magnitude** of the difference between groups, **Cohen’s d** was used:
-
-\[
-d = \frac{\bar{X}_{\text{test}} - \bar{X}_{\text{control}}}{s_{\text{pooled}}}
-\]
-
-where:
-
-\[
-s_{\text{pooled}} = \sqrt{\frac{(n_C - 1)s_C^2 + (n_T - 1)s_T^2}{n_C + n_T - 2}}
-\]
-
-This measure expresses the difference in means in **units of standard deviations**, providing a scale-free measure of effect size.
 
 
 ## Interpretation
